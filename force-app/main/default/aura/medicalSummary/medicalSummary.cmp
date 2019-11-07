@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForAllPageTypes, forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name = "green" type = "String" >
+  <div class="slds-grid slds-wrap">
+    <div class="slds-col slds-size_1-of-1">
+      <h1 class="section-title"> Summary </h1>
+    </div>
+    <div class="slds-col slds-size_1-of-3">
+      <div class="box-container">
+        <h1 class="align-text text-header">Claims in progress</h1>
+        <p class="align-text number-font">2</p>
+      </div>
+    </div>
+    <div class="slds-col slds-size_1-of-3">
+      <div class="box-container">
+        <h1 class="align-text text-header">Payments in progress</h1>
+        <p class="align-text number-font">2</p>
+      </div>
+    </div>
+    <div class="slds-col slds-size_1-of-3">
+        <div class="box-container">
+          <h1 class="align-text text-header">Patients</h1>
+          <p class="align-text number-font">12</p>
+        </div>
+    </div>
+  </div>
+</aura:component>	

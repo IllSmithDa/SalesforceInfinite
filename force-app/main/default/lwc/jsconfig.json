@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/articleHelp": [
+                "articleHelp/articleHelp.js"
+            ],
+            "c/consoleHelp": [
+                "consoleHelp/consoleHelp.js"
+            ],
+            "c/customHelpHeader": [
+                "customHelpHeader/customHelpHeader.js"
+            ],
+            "c/customerHelpFoot": [
+                "customerHelpFoot/customerHelpFoot.js"
+            ],
+            "c/customerHelpInf": [
+                "customerHelpInf/customerHelpInf.js"
+            ],
+            "c/customerHelpOptions": [
+                "customerHelpOptions/customerHelpOptions.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

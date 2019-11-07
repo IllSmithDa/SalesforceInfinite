@@ -1,0 +1,16 @@
+<template>
+    <div class="backgroundDiv">
+      <h1 class="helpTitle"><b>How Can We Help You?</b></h1>
+      <div class="searchContainer" onkeyup={handleKeyUp}>
+          <lightning-input 
+            class="inputBar" 
+            type="search"
+            value={searchTerm}
+            placeholder="Enter Your Search Term"
+            onchange={handleSearchTerm}
+          >
+          </lightning-input>
+      </div>
+    </div>
+    
+</template>

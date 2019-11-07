@@ -1,0 +1,30 @@
+<aura:component implements="flexipage:availableForAllPageTypes, forceCommunity:availableForAllPageTypes" access="global">
+  <div class="slds-grid slds-wrap comp-container">
+    <div class="slds-col slds-size_1-of-2 image-pad">
+      <img class="header-image" src="https://infinite-softworks-dev-ed--c.visualforce.com/resource/1568658784000/Medical1?" alt="medicalCare"/>
+    </div>
+    <div class="slds-col slds-size_1-of-2 text-container">
+      <h1 class="app-title"> Welcome to the Total Health Care provider</h1>
+      <p class="sub-title">Manage claims, track payments and refer providers</p>
+
+      <p class="todo-title">What to do today:</p>
+      <p class="todo-item">
+        <lightning:icon class="icon-item" size="x-small" iconName="custom:custom95" alternativeText="deadline"/> 
+        3 Days Until Contract Review Deadline, view <a class="link-item" href="https://www.google.com"> here.</a>
+      </p>
+      <p class="todo-item">
+        <lightning:icon class="icon-item" size="x-small" iconName="custom:custom5" alternativeText="claim"/> 
+        Submit a claim <a href="https://www.google.com" class="link-item"> here.</a>
+      </p>
+      <p class="todo-item">
+        <lightning:icon class="icon-item" size="x-small" iconName="custom:custom18" alternativeText="survey"/>
+        Fill out the 2019 satisfaction survey <a href="https://www.google.com" class="link-item"> here.</a>
+      </p>
+    </div>
+  </div>
+  <aura:attribute name="buttonVariant" type="String" />
+<lightning:button variant="{!v.buttonVariant}"
+                  label="Custom Button"
+                  title="Custom Button action"
+                  onclick="{! c.handleClick }"/>
+</aura:component>	

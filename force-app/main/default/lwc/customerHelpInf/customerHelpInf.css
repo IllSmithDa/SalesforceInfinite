@@ -1,0 +1,40 @@
+.helpTitle {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 90px;
+  color: whitesmoke;
+}
+
+.helpImage {
+  width: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.inputBar{
+  width: 50%;
+}
+.backgroundDiv {
+ /* background-color: forestgreen;*/
+  background-image: url('https://i.imgur.com/z13cIXk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+@media(max-width: 854px) {
+  .backgroundDiv {
+    height: 100px;
+  }
+  .helpTitle {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .inputBar {
+    width: 90%;
+  }
+
+}

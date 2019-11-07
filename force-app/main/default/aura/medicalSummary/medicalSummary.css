@@ -1,0 +1,38 @@
+.THIS {
+  background-color: white;
+  height: 225px;
+}
+.THIS .section-title {
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.THIS .box-container {
+  border: black solid 0px;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  padding-top: 40px;
+  margin-left: 130px;
+}
+.THIS .box-container:hover {
+  border: black solid 2px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.THIS .align-text {
+  text-align: center;
+}
+.THIS .text-header {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.THIS .number-font {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-weight: bolder;
+}

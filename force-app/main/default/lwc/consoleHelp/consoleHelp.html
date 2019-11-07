@@ -1,0 +1,19 @@
+<template>
+  <div class="slds-grid slds-wrap page-height">
+    <div class="slds-col slds-size_1-of-5">
+      <div id='box1' class="box-container left-container" >
+          <template for:each={articleList} for:item="article">
+            <button class="button-item" key={article.Id} value={article.Id} onclick={setArticle}>{article.Title}</button>
+          </template>
+      </div>
+    </div>
+    <div class="slds-col slds-size_4-of-5">
+      <div id='box2' class="box-container right-container" >  
+        <h1 class="align-text text-header" >{articleTitle}</h1>
+        <template for:each={articleContent} for:item="item">
+          <p key={item.Id} class='article-text'>{item.innerText}</p>
+        </template>
+      </div>
+    </div>
+  </div>
+</template>
