@@ -1,0 +1,15 @@
+<template>
+  <div class="backgroundDiv">
+    <h1 class="helpTitle"><b>How Can We Help You?</b></h1>
+    <div class="search-container" onkeyup={handleKeyUp}>
+        <image src="https://image.flaticon.com/icons/svg/49/49116.svg" class="icon-item"/>
+        <input 
+          class="inputBar" 
+          type="search"
+          value={searchTerm}
+          placeholder="Enter Your Search Term"
+          onchange={handleSearchTerm}
+        />
+    </div>
+  </div> 
+</template>

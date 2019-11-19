@@ -1,0 +1,19 @@
+<template>
+  <div class="slds-grid slds-wrap page-size">
+    <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-2">
+      <div id='box1' class="box-container left-container"  >
+        <h1 class="align-text text-header" >Find an Enphase Installer</h1>
+        <p class="align-text text-font" >
+          Looking for a local installer? Whether you're new to Enphase or an existing
+          system owner, use our Installer Network to find an Enphase installer in your neighborhood.
+        </p>
+        <p><a href="map-page">Enphase Installers</a></p>
+      </div>
+    </div>
+    <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-2">
+      <div id='box2' class="box-container right-container" >
+        <lightning-map  class="imageStyle" map-markers={mapMarkers} markers-title={markersTitle}></lightning-map>
+      </div>
+    </div>
+  </div>
+</template>

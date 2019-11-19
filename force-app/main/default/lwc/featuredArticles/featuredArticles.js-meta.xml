@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="featuredArticles">
+    <apiVersion>46.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="article1" type="String" default="article title 1" label="Enter a article title"/>
+            <property name="article2" type="String" default="article title 2" label="Enter a article title"/>
+            <property name="article3" type="String" default="article title 3" label="Enter a article title"/>
+            <property name="article4" type="String" default="article title 4" label="Enter a article title"/>
+            <property name="article5" type="String" default="article title 5" label="Enter a article title"/>
+            <property name="article6" type="String" default="article title 6" label="Enter a article title"/>
+            <property name="link1" type="String" default="article link 1" label="Enter a article link"/>
+            <property name="link2" type="String" default="article link 2" label="Enter a article link"/>
+            <property name="link3" type="String" default="article link 3" label="Enter a article link"/>
+            <property name="link4" type="String" default="article link 4" label="Enter a article link"/>
+            <property name="link5" type="String" default="article link 5" label="Enter a article link"/>
+            <property name="link6" type="String" default="article link 6" label="Enter a article link"/>
+        </targetConfig>
+      </targetConfigs>
+</LightningComponentBundle>

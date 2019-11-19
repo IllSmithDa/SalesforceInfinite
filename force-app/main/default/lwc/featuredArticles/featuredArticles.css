@@ -1,0 +1,49 @@
+.page-size {
+  width: 70%;
+  margin-left: 15%;
+}
+.page-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.box-container {
+ 
+  margin: 5px 0px 10px 0px;
+}
+.text-header {
+  font-size: 20px;
+
+}
+.list-style {
+  list-style-type: disc;
+}
+.list-container {
+  margin-left: 4%;
+}
+.item-container {
+  width: 90%;
+}
+
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media(max-width: 1250px) { 
+  .page-size {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media(max-width: 854px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+
+}

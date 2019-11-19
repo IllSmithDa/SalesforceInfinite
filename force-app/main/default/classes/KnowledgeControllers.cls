@@ -12,7 +12,9 @@ public with sharing class KnowledgeControllers {
             return [SELECT Id, Category__c, Title, Answer__c FROM Knowledge__kav WHERE Category__C = 'Event'];
         } else if (type == 'document-help') {
             return [SELECT Id, Category__c, Title, Answer__c FROM Knowledge__kav WHERE Category__C = 'Documentation'];
-        } else {
+        } else if (type == 'billing-page') {
+            return [SELECT Id, Category__c, Title, Answer__c FROM Knowledge__kav WHERE Category__C = 'MBills'];
+        }else {
             return [SELECT Id, Category__c, Title, Answer__c FROM Knowledge__kav WHERE Category__C = 'Other'];
         }
     }

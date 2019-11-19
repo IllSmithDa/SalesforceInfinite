@@ -1,0 +1,14 @@
+.page-size {
+  width: 50%;
+  margin-left: 25%;
+  min-height: 55vh;
+}
+.header-text{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.link-text {
+  font-size: 20px;
+  font-weight: bold;
+}

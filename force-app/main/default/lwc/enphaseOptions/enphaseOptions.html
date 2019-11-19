@@ -1,0 +1,46 @@
+<template>
+    <div class="slds-grid slds-wrap page-height page-size">
+      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+        <div id='box1' class="box-container  right-border" onclick={overviewPage} >
+          <img class="iconStyle" src="https://image.flaticon.com/icons/svg/1040/1040993.svg" alt="console">
+          <h1 class="align-text text-header" >Overview</h1>
+          <p class="align-text text-font" >New to Enphase? Right this way</p>
+        </div> 
+      </div>
+      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+        <div id='box2' class="box-container" onclick={systemPage} >
+          <img class="iconStyle" src="https://image.flaticon.com/icons/svg/405/405792.svg" alt="vr">
+          <h1 class="align-text text-header" >Your Enphase System</h1>
+          <p class="align-text text-font" >Your one-stop shop to help you navigate your Enphase home energy system</p>
+        </div>
+      </div>
+      <div class="slds-col slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+          <div id='box3' class="box-container left-border" onclick={enlightenPage}>
+            <img class="iconStyle" src="https://image.flaticon.com/icons/svg/2196/2196310.svg" alt="software">
+            <h1 class="align-text text-header" >My Englighten</h1>
+            <p class="align-text text-font" >Resources to help you track your energy production and monitor your system's health using the Enphase MyEnlighten app</p>
+          </div>
+      </div>
+      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+        <div id='box4' class="box-container top-border right-border" onclick={troublePage}>
+          <img class="iconStyle" src="https://image.flaticon.com/icons/svg/252/252021.svg" alt="event">
+          <h1 class="align-text text-header"  >Troubleshooting</h1>
+          <p class="align-text text-font" >Articles & FAQs to help you troubleshoot common questions and issues</p>
+        </div>
+      </div>
+      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+        <div id='box5' class="box-container top-border" onclick={productsPage}>
+          <img class="iconStyle" src="https://image.flaticon.com/icons/svg/2205/2205027.svg" alt="documentation">
+          <h1 class="align-text text-header" >Products </h1>
+          <p class="align-text text-font" >Smart solar products that make your installations easier.</p>
+        </div>
+      </div>
+      <div class="slds-col slds-size--1-of-1 slds-small-size--1-of-1 slds-medium-size--1-of-3">
+        <div id='box6' class="box-container top-border left-border" onclick={mapPage}>
+          <img class="iconStyle" src="https://image.flaticon.com/icons/svg/854/854878.svg" alt="other">
+          <h1 class="align-text text-header"  >Find an Enphase Installer</h1>
+          <p class="align-text text-font" >Looking for a local installer? Search the Network</p>        
+        </div>
+      </div>
+    </div>
+  </template>

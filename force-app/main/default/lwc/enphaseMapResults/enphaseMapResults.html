@@ -1,0 +1,10 @@
+<template>
+    <div class="page-size">
+      <h1 class="header-text">Enter Zip Code or Area Code</h1>
+      <div class="input-container ">
+        <lightning-input class="input-item" onchange={handleSearchTerm} placeholder="Zip Code or Area Code " ></lightning-input>
+        <button class="button-item" onclick={getInstallers}>Submit</button>
+      </div>
+        <lightning-map  class="imageStyle" map-markers={mapMarkers} markers-title={markersTitle}></lightning-map>
+    </div>
+</template>

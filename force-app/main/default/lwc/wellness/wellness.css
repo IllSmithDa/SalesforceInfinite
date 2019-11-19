@@ -1,0 +1,30 @@
+.button-item {
+  width: 95%;
+  margin: 0% 0% 0% 0%;
+  font-size: 20px;
+  padding :15px 5px 15px 5px;
+  background-color: white;
+  border-top: 0px;
+  border-bottom: 3px solid grey;
+  border-left: 0px;
+  border-right: 0px;
+
+}
+.button-item:hover {
+  background-color: silver;
+}
+.right-container {
+  margin-left: 3%;
+}
+.text-header {
+  font-size: 25px;
+  margin: 13px 0px 5px 0px;
+}
+.article-text {
+  font-size: 17px;
+}
+.page-size {
+  min-height: 54vh;
+  width: 50%;
+  margin-left: 25%;
+}

@@ -6,6 +6,9 @@
             "c/articleHelp": [
                 "articleHelp/articleHelp.js"
             ],
+            "c/commonForms": [
+                "commonForms/commonForms.js"
+            ],
             "c/consoleHelp": [
                 "consoleHelp/consoleHelp.js"
             ],
@@ -20,6 +23,51 @@
             ],
             "c/customerHelpOptions": [
                 "customerHelpOptions/customerHelpOptions.js"
+            ],
+            "c/enphaseHeader": [
+                "enphaseHeader/enphaseHeader.js"
+            ],
+            "c/enphaseIMap": [
+                "enphaseIMap/enphaseIMap.js"
+            ],
+            "c/enphaseMap": [
+                "enphaseMap/enphaseMap.js"
+            ],
+            "c/enphaseMapResults": [
+                "enphaseMapResults/enphaseMapResults.js"
+            ],
+            "c/enphaseOptions": [
+                "enphaseOptions/enphaseOptions.js"
+            ],
+            "c/enphaseSearch": [
+                "enphaseSearch/enphaseSearch.js"
+            ],
+            "c/featuredArticles": [
+                "featuredArticles/featuredArticles.js"
+            ],
+            "c/helpDesignComp": [
+                "helpDesignComp/helpDesignComp.js"
+            ],
+            "c/medicalBills": [
+                "medicalBills/medicalBills.js"
+            ],
+            "c/medicalCustOptions": [
+                "medicalCustOptions/medicalCustOptions.js"
+            ],
+            "c/medicalHelpFooter": [
+                "medicalHelpFooter/medicalHelpFooter.js"
+            ],
+            "c/medicalHelpHeader": [
+                "medicalHelpHeader/medicalHelpHeader.js"
+            ],
+            "c/medicalNews": [
+                "medicalNews/medicalNews.js"
+            ],
+            "c/medicalSearchHelp": [
+                "medicalSearchHelp/medicalSearchHelp.js"
+            ],
+            "c/wellness": [
+                "wellness/wellness.js"
             ]
         }
     },
