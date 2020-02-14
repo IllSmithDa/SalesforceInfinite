@@ -1,0 +1,45 @@
+<aura:component implements="forceCommunity:themeLayout, force:hasRecordId" access="global" controller="EnphaseUserTestController"> 
+  <aura:attribute name="currentUser" type="Object"/>
+  <aura:attribute name="initComplete" type="Boolean" default="false"/>
+  <aura:attribute name="errorStatus" type="Boolean" default="false"/>
+  <aura:handler name="init" value="{!this}" action="{!c.getUserAgreed}"/>
+  <c:enphaseHeader/>
+  <aura:if isTrue="{!v.initComplete == true}">
+    <aura:if isTrue="{!v.currentUser.Agreed_Terms_Date__c == NULL || !v.currentUser.Agreed_Terms_Date__c == undefined}">
+      <div id="myModal" class="modal">
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div>
+              <h1>Privacy Notice and Terms &amp; Conditions</h1>
+            </div>
+            <div>
+              <h2>By clicking AGREE, you indicate that you accept our <a href="https://enphase.com/en-us/legal/terms-of-service">terms of service</a> and <a href="https://enphase.com/en-us/legal/privacy-policy">privacy policy</a></h2>
+            </div>      
+            <div>
+              <span onclick="{!c.logoutUser}">Disagree</span>
+              <span onclick="{!c.updateUserAgree}">Agree</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aura:if>
+  </aura:if>
+  <aura:if isTrue="{!v.errorStatus == true}">
+    <div id="myErrorModal" class="error-modal">
+      <div id="myErrorModal" class="error-modal">
+        <div class="error-modal-content">
+          <div>
+            <h1>Unknown User Error: Please contact your adminstrator for help.</h1>
+          </div>
+          <div>
+            <span onclick="{!c.closeErrorModal}">Okay</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aura:if>
+  <div class="theme-body-container">
+    {!v.body}
+  </div>
+</aura:component>	

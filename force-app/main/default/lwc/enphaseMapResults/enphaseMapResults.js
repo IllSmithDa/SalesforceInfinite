@@ -28,7 +28,7 @@ export default class EnphaseMapResults extends LightningElement {
     console.log(this.zipCode);
 
     this.zipCodeString = this.zipCode.toString();
-    findInstallers({zipcode: '$zipCodeString'}) 
+    findInstallers({zipcode: 'zipCodeString'}) 
       .then(result => {
         console.log(this.zipCode);
         console.log('hello');

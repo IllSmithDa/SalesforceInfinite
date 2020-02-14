@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="valueFromParent" type="String" required="false" description="" access="public"/>
+
+    {!v.valueFromParent}
+
+</aura:component>	

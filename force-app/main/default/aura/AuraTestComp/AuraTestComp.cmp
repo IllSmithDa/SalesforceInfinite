@@ -1,0 +1,29 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+    <aura:attribute name="truthy" default="asfwe" type="String" />
+    <aura:attribute name="passToChild" type="String" required="false" description="" default="molten lava" access="public"/>
+
+    <c:AuraChildTest valueFromParent="{! v.passToChild }"/>
+
+    <aura:renderIf isTrue="{!v.truthy == 'bob'}">
+    bob
+    <aura:set attribute="else">
+        <aura:renderIf isTrue="{!v.truthy == 'joe'}">
+            joe
+            <aura:set attribute="else">
+                <aura:renderIf isTrue="{!v.truthy == 'sam'}">
+                    sam
+                    <aura:set attribute="else">
+                      <aura:renderIf isTrue="{!v.truthy == 'elsa'}">
+                        elsa
+                      <aura:set attribute="else">False</aura:set>
+                      </aura:renderIf> 
+                    </aura:set>
+                  </aura:renderIf> 
+            </aura:set>
+          </aura:renderIf> 
+    </aura:set>
+  </aura:renderIf> 
+
+    
+
+</aura:component>

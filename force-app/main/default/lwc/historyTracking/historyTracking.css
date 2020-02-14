@@ -1,0 +1,21 @@
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow: hidden;
+}
+.scrolling-wrapper .card {
+  flex: 0 0 auto;
+  width: 20%;
+  height: 200px;
+  margin: 26px;
+  box-shadow: 4px 4px 4px rgba(0,0, 0, .3);
+  border: 1px solid black 
+}
+
+.horizontal-menu-container {
+
+}
+.left-button span {
+  float: right;
+}
